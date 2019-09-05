@@ -1,0 +1,22 @@
+cd C:\Users\User\Desktop\CHUH
+git commit -m "Переходимо до довільної директорії на диску"
+git clone https://github.com/Chuh1/Chukhlomyn_WEB.git
+git commit -m "робимо клон створеного глобального репозиторію"
+cd C:\Users\User\Desktop\CHUH\Chukhlomyn_WEB
+git commit -m "Переходимо до клону створеного глобального репозиторію"
+git init
+git commit -m "реаніціалізація існуючого репозиторію"
+git add numbPIB.txt
+git commit -m "додає вміст файлу в індекс"
+git config --global user.email "urrban222@gmail.com"
+git commit -m "Внесення власного емейлу"
+git config --global user.name "Chuh1"
+git commit -m "Внесення власного логіна"
+git commit -m "create file"
+git commit -m "записує зміни в сховище"
+git add numbPIB.txt
+git commit -m "додає вміст файлу в індекс"
+git commit -m "set PIB"
+git commit -m "записує зміни в сховище"
+git push
+git commit -m "відправлення змін на глобальний репозиторій GitHub"
