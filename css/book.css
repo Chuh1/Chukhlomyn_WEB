@@ -6,7 +6,15 @@
 {
     line-height:3px; /* інтервал між рядками */
 }
-
+.drine hr
+{
+    line-height:20px;
+    color: white;
+}
+.line hr {
+    line-height:3px;
+    color: blue;
+}
 .wrap
 {
     margin:0 auto; /* відступ від сторін */
