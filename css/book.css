@@ -1,0 +1,85 @@
+.dline
+{
+    line-height:0; /* інтервал між рядками */
+}
+.drine
+{
+    line-height:3px; /* інтервал між рядками */
+}
+
+.wrap
+{
+    margin:0 auto; /* відступ від сторін */
+    max-width:980px;
+}
+.wrap h4
+{
+    text-align:center;
+}
+a
+{
+    color: green;
+}
+.prose p
+{
+    text-indent:30px; /* абзац */
+    margin:0px;
+    padding:0px;
+}
+.page-title
+{
+    text-align:center;
+    display:block;
+    clear:both;
+    margin:0;
+    padding:0 20px 20px;
+}
+.page-title h1
+{
+    font-size:32px;
+    line-height:32px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+.page-title h2
+{
+    font-size:20px;
+    line-height:20px;
+    font-weight:bold;
+}
+h1
+{
+    padding-bottom:0px;
+    line-height:auto;
+    text-align:center;
+    font-family:Verdana,sans-serif;
+    color:blue;
+}
+h2
+{
+    font-size:16px;
+    text-align:center;
+    font-family:Verdana,sans-serif;
+}
+.prose
+{
+    text-align:justify; /* по ширині */
+    font:16px/24px Georgia,'Times New Roman',Serif;
+    color:#000;
+}
+.prose blockquote
+{
+    text-align:right;
+    margin-bottom:20px;
+}
+img {
+    background: #ccc;
+    overflow: hidden;
+    width: 155px;
+    height: 250px;
+    float: left ;
+}
+h6 {
+
+    float:right;
+}
