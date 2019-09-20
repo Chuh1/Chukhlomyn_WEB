@@ -2,18 +2,33 @@
 {
     line-height:0; /* інтервал між рядками */
 }
+.dline p
+{
+    line-height:0; /* інтервал між рядками */
+    font-style: italic;
+    break-word: none;
+}
 .drine
 {
     line-height:3px; /* інтервал між рядками */
 }
-.drine hr
-{
-    line-height:20px;
-    color: white;
+.drine hr{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: white; /* Цвет линии для остальных браузеров */
+    background-color: white; /* Цвет линии для браузера Firefox и Opera */
+    height: 25px; /* Толщина линии */
 }
-.line hr {
-    line-height:3px;
-    color: blue;
+.line hr{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: blue; /* Цвет линии для остальных браузеров */
+    background-color: blue; /* Цвет линии для браузера Firefox и Opera */
+    height: 3px; /* Толщина линии */
+}
+.linew hr{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: white; /* Цвет линии для остальных браузеров */
+    background-color: white; /* Цвет линии для браузера Firefox и Opera */
+    height: 170px; /* Толщина линии */
 }
 .wrap
 {
@@ -26,6 +41,7 @@
 }
 a
 {
+    text-decoration: none;
     color: green;
 }
 .prose p
@@ -74,6 +90,9 @@ h2
     text-align:justify; /* по ширині */
     font:16px/24px Georgia,'Times New Roman',Serif;
     color:#000;
+}
+.justify {
+    text-align:justify;
 }
 .prose blockquote
 {
