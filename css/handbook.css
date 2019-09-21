@@ -12,6 +12,9 @@ img[alt] { width:
 }
 input[type=”text”] { fontsize: 10px;
 }*/
+body {
+    background-color: lightgray;
+}
 em {
     font-style: italic;
 }

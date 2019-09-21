@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body { background: url("http://365psd.ru/images/backgrounds/bg-lightl-901.jpg"); }
+}
+.zagolovok{
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.pphotka{
+    padding: 0;
+    width: 350px;
+    hight: 300px;
+    border: 2px solid  #992211;
+}
+h2{
+    font-size: 16px;
+    text-align: center;
+}
+.main {
+    display: block;
+    width: 100%;
+    height: 2000px;
+}
+P {
+    text-indent: 10px; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+    margin: 20px;
+}
+a {
+    text-decoration: none;
+    color: green;
+}
+.pphotka {
+    float: left;
+}
+.text {
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    list-style-type: none;
+    color: black;
+    text-indent: 2em;
+}
+span {
+    font-weight: 300;
+}
+hr{
+    border: none; /* Убираем границу */
+    background-color: black; /* Цвет линии */
+    color: black; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+}
+.сchast{
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+}
+aside img{
+    height: 240;
+    weight: 320;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    border: 3px solid black;
+}
+.kaban{
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+.nac
+{
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+}
+.nacc{
+    font-size: 25px;
+    font-family: 'Crimson Pro', serif;
+}
+.faza{
+    font-size: 50px;
+    font-family: 'Monoton', cursive;
+}
+em {
+    font-style: italic;
+}
+.img img {
+
+}
+img {
+    background: #ccc;
+    overflow: hidden;
+    width: 320px;
+    height: 240px;
+    float: left ;
+}
