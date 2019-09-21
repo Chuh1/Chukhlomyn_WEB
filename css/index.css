@@ -1,4 +1,4 @@
-* {
+/** {
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,6 @@
 }
 img[alt] { width:
         100px;
-}
+}*/
 input[type=”text”] { fontsize: 10px;
 }

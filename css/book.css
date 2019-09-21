@@ -1,12 +1,9 @@
+body {
+    background-color: lightgray;
+}
 .dline
 {
     line-height:0; /* інтервал між рядками */
-}
-.dline p
-{
-    line-height:0; /* інтервал між рядками */
-    font-style: italic;
-    break-word: none;
 }
 .drine
 {
@@ -14,8 +11,8 @@
 }
 .drine hr{
     border: none; /* Убираем границу для браузера Firefox */
-    color: white; /* Цвет линии для остальных браузеров */
-    background-color: white; /* Цвет линии для браузера Firefox и Opera */
+    color: lightgray; /* Цвет линии для остальных браузеров */
+    background-color: lightgray; /* Цвет линии для браузера Firefox и Opera */
     height: 25px; /* Толщина линии */
 }
 .line hr{
@@ -26,8 +23,8 @@
 }
 .linew hr{
     border: none; /* Убираем границу для браузера Firefox */
-    color: white; /* Цвет линии для остальных браузеров */
-    background-color: white; /* Цвет линии для браузера Firefox и Opera */
+    color: lightgray; /* Цвет линии для остальных браузеров */
+    background-color: lightgray; /* Цвет линии для браузера Firefox и Opera */
     height: 170px; /* Толщина линии */
 }
 .wrap
@@ -109,4 +106,7 @@ img {
 h6 {
 
     float:right;
+}
+em {
+    font-style: italic;
 }
