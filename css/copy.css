@@ -30,46 +30,12 @@
 .wrapper_ts_title {
     display: block;
     height: 30px;
-    width: 10%;
+    width: 100%;
     float: left;
 }
 .wrapper_ts_title > p {
-    font-size: 30px;
-    text-align: center;
-    color: red;
-}
-.img1 {
-    display: block;
-    width: 320px;
-    height: 240px;
-    float: left;
-    border-left: 19px solid lightgrey;
-    border-right: 19px solid lightgrey;
-}.img2 {
-     display: block;
-     width: 320px;
-     height: 240px;
-     float: left;
-     border-right: 19px solid lightgrey;
- }
-.img3 {
-    display: block;
-    width: 320px;
-    height: 240px;
-    float: left;
-    border-right: 19px solid lightgrey;
-}
-.img4 {
-    display: block;
-    width: 320px;
-    height: 240px;
-    float: left;
-}
-#razmer {
-    margin-top: 30px;
-    margin-left: 70px;
-    width: 320px;
-    height: 240px;
+    font-size: 6px;
+    text-align: right;
 }
 .footer_book {
     display: block;
@@ -106,42 +72,72 @@
     float: left;
 }
 .header_ts_title > p {
-    font-size: 35px;
-    text-align: center;
-    color: red;
+    font-size: 6px;
+    text-align: right;
 }
 .header_ts_photo {
     display: block;
-    height: 350px;
-    width: 250px;
+    height: 250px;
+    width: 155px;
     float: left;
     background-color: gray;
 }
 .header_ts_photo > img {
-    height: 350px;
-    width: 250px;
+    height: 250px;
+    width: 155px;
 }
-.data {
+.wrapper_ts_photo {
+    display: block;
+    height: 250px;
+    width: 155px;
+    float: left;
+    background-color: gray;
+}
+.wrapper_ts_photo > img {
+    height: 250px;
+    width: 155px;
+}
+.header_data {
     display: block;
     width: 250px;
     height: 370px;
     float: left;
     border-left: 19px solid lightgrey;
 }
-.data h3{
+.wrapper_data {
+    display: block;
+    width: 250px;
+    height: 370px;
+    float: left;
+    border-left: 19px solid lightgrey;
+}
+.header_data h3{
+     font:16px/24px Georgia,'Times New Roman',Serif;
+     font-size:18px;
+     line-height:18px;
+     font-weight:bold;
+ }
+.wrapper_data h3{
     font:16px/24px Georgia,'Times New Roman',Serif;
     font-size:18px;
     line-height:18px;
     font-weight:bold;
 }
-.data em {
+.header_data em {
+    font-style: italic;
+    color: wheat;
+}
+.wrapper_data em {
     font-style: italic;
     color: wheat;
 }
 em {
     font-style: italic;
 }
-
+hr {
+    background-color: blue;
+    height: 3px;
+}
 .dline
 {
     line-height:0; /* інтервал між рядками */
